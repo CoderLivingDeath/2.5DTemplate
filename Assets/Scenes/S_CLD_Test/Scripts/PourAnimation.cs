@@ -1,6 +1,6 @@
-using UnityEngine;
 using DG.Tweening;
 using EditorAttributes;
+using UnityEngine;
 
 public class PureAnimation : MonoBehaviour
 {
@@ -23,7 +23,8 @@ public class PureAnimation : MonoBehaviour
     public void Animate()
     {
         float normalized = 0f;
-        DOTween.To(() => normalized, x => {
+        DOTween.To(() => normalized, x =>
+        {
             normalized = x;
             Vector2 pos = NormalToWorld(normalized);
             transform.position = new Vector3(pos.x, pos.y, transform.position.z);

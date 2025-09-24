@@ -1,6 +1,4 @@
 using System;
-using System.Threading.Tasks;
-using TMPro;
 using UnityEngine;
 
 public abstract class MonoCanvasView : MonoBehaviour

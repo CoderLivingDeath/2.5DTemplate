@@ -1,6 +1,6 @@
-using UnityEngine;
 using DG.Tweening;
 using System;
+using UnityEngine;
 [Serializable]
 [CreateAssetMenu(fileName = "FadeAnimationSO", menuName = "Animations/FadeAnimationSO")]
 public class FadeAnimationSO : ViewAnimationSO<MonoCanvasView>

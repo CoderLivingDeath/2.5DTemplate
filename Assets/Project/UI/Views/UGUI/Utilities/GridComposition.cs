@@ -1,6 +1,6 @@
-using UnityEngine;
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
+using UnityEngine;
 
 [Obsolete("Класс эксперементальный и может измениться.", true)]
 [ExecuteAlways]

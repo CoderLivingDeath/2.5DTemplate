@@ -11,7 +11,7 @@ public class AudioSourcePool
 
     public IEnumerable<AudioSource> AudioSources => _sources;
 
-    public IEnumerable<AudioSource> FreeSources => _freeSources; 
+    public IEnumerable<AudioSource> FreeSources => _freeSources;
 
     private readonly AudioMixerGroup _mixerGroup;
     private readonly IEnumerable<AudioSource> _sources;

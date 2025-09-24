@@ -1,8 +1,5 @@
-using System;
 using System.ComponentModel;
-using DG.Tweening;
 using TMPro;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
@@ -156,7 +153,7 @@ public partial class SettingsMenuView : MonoCanvasView
         if (_isUpdatingUI) return;
         _viewModel.MusicVolume = value;
     }
-    
+
     private void OnMusicInputChanged(string value)
     {
         if (_isUpdatingUI) return;

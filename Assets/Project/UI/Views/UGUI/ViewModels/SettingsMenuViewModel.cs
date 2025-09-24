@@ -1,6 +1,5 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using UnityEngine;
 
 public partial class SettingsMenuViewModel : ObservableRecipient
 {

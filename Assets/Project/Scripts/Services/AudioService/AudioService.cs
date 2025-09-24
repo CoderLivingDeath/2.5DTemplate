@@ -1,8 +1,5 @@
 using System;
-using System.Collections;
-using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
-using Zenject;
 
 public class AudioService
 {
@@ -61,21 +58,21 @@ public class AudioService
     {
         var isFound = audioConfigSO.Master.audioMixer.SetFloat(MASTER_VOLUME_KEY, ToDecibel(volume));
 
-        if (!isFound) Debug.LogWarning($"MixerParameter {MASTER_VOLUME_KEY} not found.");
+        if (!isFound) Debug.LogWarning($"AudioMixer Parameter: {MASTER_VOLUME_KEY} - not found.");
     }
 
     public void SetMusicVolume(float volume)
     {
         var isFound = musicPool.MixerGroup.audioMixer.SetFloat(MUSIC_VOLUME_KEY, ToDecibel(volume));
 
-        if (!isFound) Debug.LogWarning($"MixerParameter {MUSIC_VOLUME_KEY} not found.");
+        if (!isFound) Debug.LogWarning($"AudioMixer Parameter: {MUSIC_VOLUME_KEY} - not found.");
     }
 
     public void SetSoundVolume(float volume)
     {
         var isFound = musicPool.MixerGroup.audioMixer.SetFloat(SOUND_VOLUME_KEY, ToDecibel(volume));
 
-        if (!isFound) Debug.LogWarning($"MixerParameter {SOUND_VOLUME_KEY} not found.");
+        if (!isFound) Debug.LogWarning($"AudioMixer Parameter: {SOUND_VOLUME_KEY} - not found.");
     }
 
     public float GetMasterVolume()

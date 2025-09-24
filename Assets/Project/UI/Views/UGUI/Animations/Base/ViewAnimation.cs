@@ -1,7 +1,6 @@
 using Cysharp.Threading.Tasks;
 using System;
 using System.Threading;
-using UnityEngine;
 
 public abstract class ViewAnimation<T> : IViewAnimation where T : MonoCanvasView
 {

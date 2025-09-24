@@ -1,0 +1,21 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Project/UI/Views/UI%20Toolkit/Styles/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=f06751f40acd7df4eaca86629c3f2bd1&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="MainMenu-container" class="MainMenu-container">
+        <ui:VisualElement style="flex-grow: 1; flex-wrap: nowrap; flex-direction: row;">
+            <ui:VisualElement name="VisualElement" style="flex-grow: 0; align-self: flex-start; justify-content: center; margin-left: 96px; align-content: flex-start; height: 100%; flex-shrink: 0;">
+                <ui:VisualElement name="MainMenu-Buttons-Container" class="MainMenu-Buttons-Container">
+                    <ui:VisualElement name="MainMenu-button-container" class="MainMenu-button-container" style="flex-grow: 1;">
+                        <ui:Button text="Play" name="Play-btn" class="MainMenu-btn" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="MainMenu-button-container" class="MainMenu-button-container">
+                        <ui:Button text="Settings" name="Settings-btn" class="MainMenu-btn" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="MainMenu-button-container" class="MainMenu-button-container" style="flex-grow: 1;">
+                        <ui:Button text="Quit" name="Quit-btn" class="MainMenu-btn" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="flex-grow: 0; flex-shrink: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

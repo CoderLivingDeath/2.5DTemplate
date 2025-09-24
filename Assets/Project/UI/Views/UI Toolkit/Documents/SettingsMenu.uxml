@@ -1,0 +1,26 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Project/UI/Views/UI%20Toolkit/Styles/SettingsMenuStyle.uss?fileID=7433441132597879392&amp;guid=f830494ac94546349ab826d3d2f25189&amp;type=3#SettingsMenuStyle" />
+    <Style src="project://database/Assets/Project/UI/Views/UI%20Toolkit/Styles/SharedStyles.uss?fileID=7433441132597879392&amp;guid=e49cf178dec29944d92ffa356539b0ca&amp;type=3#SharedStyles" />
+    <ui:VisualElement name="SettingsMenuContainer" class="Container" style="flex-grow: 0; flex-shrink: 0;">
+        <ui:VisualElement name="Grid" class="Flex-Row">
+            <ui:VisualElement name="col-1" class="col-2" />
+            <ui:VisualElement name="col-2" class="col-8">
+                <ui:VisualElement name="row-1" class="row-2" style="flex-grow: 1;" />
+                <ui:VisualElement name="row2" class="row-12" style="flex-grow: 1;">
+                    <ui:VisualElement name="Settings-window" class="Container p-8 bg-primary Flex-Space-Around boder-color-primary" style="flex-grow: 1; justify-content: space-around; color: rgb(0, 0, 0); font-size: 18px;">
+                        <ui:VisualElement style="flex-grow: 1;">
+                            <ui:Slider label="Music" value="42" high-value="100" name="MusicVolume" />
+                            <ui:Slider label="Sound" value="42" high-value="100" name="SoundVolumeSlider" />
+                        </ui:VisualElement>
+                        <ui:VisualElement style="flex-grow: 0; flex-shrink: 0; flex-direction: row; justify-content: flex-end;">
+                            <ui:Button text="Apply" class="button-primary margin-3" />
+                            <ui:Button text="Cancel" class="button-primary margin-3" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="row-3" class="row-2" style="flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="col-3" class="col-2" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

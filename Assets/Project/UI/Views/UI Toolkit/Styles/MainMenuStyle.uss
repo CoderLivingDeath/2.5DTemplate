@@ -1,0 +1,35 @@
+
+
+.MainMenu-container {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/TutorialInfo/Icons/URP.png?fileID=2800000&guid=727a75301c3d24613a3ebcec4a24c2c8&type=3#URP");
+}
+
+.MainMenu-btn {
+    width: 50%;
+    transition-duration: 250ms;
+}
+
+.MainMenu-btn:hover {
+    width: 75%;
+    transition-duration: 250ms;
+    transition-timing-function: ease-out-cubic;
+    letter-spacing: 15px;
+}
+
+.MainMenu-Buttons-Container {
+    flex-grow: 0;
+    width: 313px;
+    height: auto;
+    margin-left: 0;
+    flex-shrink: 0;
+}
+
+.MainMenu-button-container {
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
